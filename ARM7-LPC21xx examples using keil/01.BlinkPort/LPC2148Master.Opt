@@ -1,0 +1,53 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+ cExt (*.c)
+ aExt (*.s*; *.src; *.a*)
+ oExt (*.obj)
+ lExt (*.lib)
+ tExt (*.txt; *.h; *.inc)
+ pExt (*.plm)
+ CppX (*.cpp)
+ DaveTm { 0,0,0,0,0,0,0,0 }
+
+Target (Target 1), 0x0004 // Tools: 'ARM-ADS'
+GRPOPT 1,(Source Group 1),1,0,0
+GRPOPT 2,(lib),1,0,0
+GRPOPT 3,(Main),1,0,0
+
+OPTFFF 1,1,2,16777216,0,0,0,0,<.\Startup.s><Startup.s> 
+OPTFFF 2,2,1,16777216,0,0,0,0,<.\lib\adc\adc.c><adc.c> 
+OPTFFF 2,3,1,16777216,0,0,0,0,<.\lib\delay\delay.c><delay.c> 
+OPTFFF 2,4,1,16777216,0,0,0,0,<.\lib\gpio\gpio.c><gpio.c> 
+OPTFFF 2,5,1,16777216,0,0,0,0,<.\lib\irq\irq.c><irq.c> 
+OPTFFF 2,6,1,16777216,0,0,0,0,<.\lib\nstring\Nstring.c><Nstring.c> 
+OPTFFF 2,7,1,16777216,0,0,0,0,<.\lib\serial\serial.c><serial.c> 
+OPTFFF 2,8,1,16777216,0,0,0,0,<.\lib\i2c\i2c.c><i2c.c> 
+OPTFFF 2,9,1,16777216,0,0,0,0,<.\lib\spi\spi.c><spi.c> 
+OPTFFF 2,10,1,16777216,0,0,0,0,<.\lib\rtc\rtc.c><rtc.c> 
+OPTFFF 2,11,1,16777216,0,0,0,0,<.\lib\extint\extint.c><extint.c> 
+OPTFFF 3,12,1,285212673,0,1,1,0,<.\main.c><main.c> 
+
+
+TARGOPT 1, (Target 1)
+ ADSCLK=12000000
+  OPTTT 1,1,1,0
+  OPTHX 0,65535,0,0,0
+  OPTLX 79,66,8,<.\Listings\>
+  OPTOX 16
+  OPTLT 1,1,1,0,1,1,0,1,0,0,0,0
+  OPTXL 1,1,1,1,1,1,1,0,0
+  OPTFL 1,0,1
+  OPTAX 8
+  OPTBL 0,(Data Sheet)<DATASHTS\PHILIPS\LPC2141_42_44_46_48.PDF>
+  OPTBL 1,(User Manual)<DATASHTS\PHILIPS\user_manual_LPC214x.pdf>
+  OPTDL (SARM.DLL)(-cLPC2100)(DARMP.DLL)(-pLPC2148)(SARM.DLL)()(TARMP.DLL)(-pLPC2148)
+  OPTDBG 3981309,0,()()()()()()()()()() (BIN\UL2ARM.DLL)()()()
+  OPTKEY 0,(DLGDARM)((134=-1,-1,-1,-1,0)(135=-1,-1,-1,-1,0)(153=-1,-1,-1,-1,0)(154=-1,-1,-1,-1,0)(108=-1,-1,-1,-1,0)(106=-1,-1,-1,-1,0)(105=-1,-1,-1,-1,0)(145=-1,-1,-1,-1,0)(147=-1,-1,-1,-1,0)(80=-1,-1,-1,-1,0)(104=-1,-1,-1,-1,0)(100=501,299,1074,471,1)(101=-1,-1,-1,-1,0)(160=-1,-1,-1,-1,0)(161=-1,-1,-1,-1,0)(113=-1,-1,-1,-1,0)(112=-1,-1,-1,-1,0)(137=-1,-1,-1,-1,0)(138=-1,-1,-1,-1,0)(117=-1,-1,-1,-1,0)(146=-1,-1,-1,-1,0)(110=-1,-1,-1,-1,0)(111=-1,-1,-1,-1,0)(114=-1,-1,-1,-1,0)(141=-1,-1,-1,-1,0)(142=-1,-1,-1,-1,0)(143=-1,-1,-1,-1,0)(144=-1,-1,-1,-1,0)(115=-1,-1,-1,-1,0)(116=-1,-1,-1,-1,0))
+  OPTKEY 0,(ARMDBGFLAGS)(-T5F)
+  OPTKEY 0,(UL2ARM)(UL2ARM(-U268761108 -O7 -C0 -FO15 -FD40000000 -FC800 -FN1 -FF0LPC_IAP2_512 -FS00 -FL07D000))
+  OPTDF 0x86
+  OPTLE <>
+  OPTLC <>
+EndOpt
+
