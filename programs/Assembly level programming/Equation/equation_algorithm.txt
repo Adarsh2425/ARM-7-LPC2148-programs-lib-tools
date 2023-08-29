@@ -1,0 +1,18 @@
+Algorithm for evaluating given equation with conditions
+
+Step1: Start
+Step2: Load x,y in registers R7,R8 resp.
+Step3: if x > y, skip to step9
+
+Step4: Load coefficents a,b,c of ay^2+bx+c in R2,R1,R0 resp.
+Step5:  Multiply a with (y multiplied with y)
+Step6:	Multiply b with x
+Step7:	Add a*y^2,b*x,c and store in R10
+Step8:  Skip to step13
+
+Step9:	Load coefficents a,b,c of ax^2+by+c in R2,R1,R0 resp.
+Step10:	Multiply a with (x multiplied with x)
+Step11:	Multiply b with y
+Step12:	Add a*x^2, b*y, c and store in R10
+Step13:	Stop
+	

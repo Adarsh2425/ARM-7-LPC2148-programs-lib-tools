@@ -1,0 +1,9 @@
+Algorithm for Tollgate - Abhinav
+
+Step1: Start
+Step2: Load number of vehicles coming from Karnataka, Maharashtra, Kerala in registers R1,R2,R3 respectively
+Step3: Load the charge for each vehicle from Karnataka, Maharashtra, Keraala in registers R11,R12,R13 respectively
+Step4: For each state, multiply number of vehicles with charge for each vehicle [to get amount deducted from each state]
+Step5: store amount deducted from each state in registers R1,R2,R3 resp
+Step6: Add amount deducted from all 3 states [This is total tollgate collection]
+Step7: Stop

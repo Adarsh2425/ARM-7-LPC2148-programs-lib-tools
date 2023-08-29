@@ -1,0 +1,15 @@
+Procedure to upload code to evaluation board:
+
+Options for target
+Use MicroLib
+In Output, Create hex file
+In Linker, Use memory layout form
+Build -> Creating hex file
+Go to Flash magic
+ARM7
+Select LPC2148
+Select COM port by checking in Device manager
+Baudrate: 19200
+12 Mhz osc
+Select file
+Start
