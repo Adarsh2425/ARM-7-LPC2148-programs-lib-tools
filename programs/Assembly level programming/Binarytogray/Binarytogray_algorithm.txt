@@ -1,0 +1,14 @@
+Algorithm for Binary to gray - Abhinav
+
+Step1: Start
+Step2: Load the first 16bit binary number in location 0x40000000 (pointed by R4)
+Step3: initialize loop counter ariable, say i, to number of binary numbers in the array
+Step4: Repeat until i!=0,
+	 Mask higher significant 16bits by AND operation with 0000FFFF, and store in R0
+	 Store this halfword binary in memory location pointed by R4
+	 Right shift this binary number by 1 bit, and store in R10
+	 Ex-OR operate R0 and R10, to get corresponding Gray number
+	Store it in memory location pointed by R3
+     decrement i by 1
+Step5: Stop
+	 

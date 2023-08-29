@@ -1,0 +1,96 @@
+// stepper uart
+
+
+#include<lpc21xx.h>
+#include<stdio.h>
+
+void delay(unsigned int j)
+{
+    int i,k;
+    for(i=0;i<j;i++)
+    {
+        for(k=0;k<9999;k++);
+    }
+}
+void serial()
+{
+    PINSEL0 = 0x0000005;
+    U0LCR = 0x83;
+    U0DLL = 0x61;
+    U0LCR = 0x03; 
+}
+void clk()
+{
+     PINSEL1=0X00000000;
+    IODIR0=0XF0000000;
+    
+
+        IOCLR0=0XF0000000;
+        delay(10);
+        IOSET0=0X80000000;
+        delay(10);
+        IOCLR0=0XF0000000;
+        
+        IOSET0=0X40000000;
+        delay(10);
+        IOCLR0=0XF0000000;
+        
+        IOSET0=0X20000000;
+        delay(10);
+        IOCLR0=0XF0000000;
+        
+        IOSET0=0X10000000;
+        delay(10);
+        IOCLR0=0XF0000000;  
+
+}
+void anti()
+{
+     PINSEL1=0X00000000;
+    IODIR0=0XF0000000;
+    
+
+        IOCLR0=0XF0000000;
+        delay(10);
+        IOSET0=0X10000000;
+        delay(10);
+        IOCLR0=0XF0000000;
+        
+        IOSET0=0X20000000;
+        delay(10);
+        IOCLR0=0XF0000000;
+        
+        IOSET0=0X40000000;
+        delay(10);
+        IOCLR0=0XF0000000;
+        
+        IOSET0=0X80000000;
+        delay(10);
+        IOCLR0=0XF0000000;  
+
+}
+int main()
+{
+    int i;
+    unsigned char mg;
+    serial();
+    while(1)
+    {
+        
+        while(!(U0LSR & 0x01));
+            mg = U0RBR;
+        U0THR = mg;
+
+        if(mg=='A')
+        {
+        for(i=0;i<100;i++)
+            anti();
+        }
+        else if(mg=='C')
+        {
+                    for(i=0;i<100;i++)
+            clk();
+        }
+        
+    }
+}
