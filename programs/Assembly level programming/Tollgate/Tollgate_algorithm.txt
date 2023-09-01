@@ -1,5 +1,7 @@
 Algorithm for Tollgate - Abhinav
 
+
+
 Step1: Start
 Step2: Load number of vehicles coming from Karnataka, Maharashtra, Kerala in registers R1,R2,R3 respectively
 Step3: Load the charge for each vehicle from Karnataka, Maharashtra, Keraala in registers R11,R12,R13 respectively
