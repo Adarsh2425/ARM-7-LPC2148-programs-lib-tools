@@ -4,6 +4,7 @@ Welcome to the ARM-LPC2148 repository! This repository contains a comprehensive 
 
 ## LPC2148 Microcontroller in Depth
 
+
 ### Technical Specifications
 
 - **Processor Core:** The LPC2148 integrates the ARM7TDMI-S core, a powerful 32-bit RISC processor. It operates at clock frequencies up to 60 MHz, offering a balance of performance and efficiency for diverse computing tasks.
