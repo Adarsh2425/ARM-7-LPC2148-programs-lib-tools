@@ -11,6 +11,9 @@ Hardware Setup:-
 	Stopbits:1
 		
 
+
+
+
 Clock Settings:
 	FOSC	>>	12MHz (onboard)
 	PLL		>>	M=5, P=2
