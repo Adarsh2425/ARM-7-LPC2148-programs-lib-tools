@@ -12,7 +12,6 @@ We strongly believe that the library works on any of development boards for resp
 
 TechhEngine DISCLAIMS ANY KIND OF HARDWARE FAILURE RESULTING OUT OF USAGE OF LIBRARIES, DIRECTLY OR
 INDIRECTLY. FILES MAY BE SUBJECT TO CHANGE WITHOUT PRIOR NOTICE. THE REVISION HISTORY CONTAINS THE INFORMATION 
-RELATED TO UPDATES.
  
 
 Permission to use, copy, modify, and distribute this software and its documentation for any purpose
