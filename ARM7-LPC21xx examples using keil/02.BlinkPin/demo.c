@@ -74,9 +74,11 @@ void external_int_example(void)
 
 void dht11_example(void)
 {
-	char disp[20];
+	char disp[20]; 
+	
 	serial0_init(9600);
 	serial0_print("DHT11 Testing ....\r\n");
+	
 	while(1)
 	{
 		dht_read11(DHT_PIN);
