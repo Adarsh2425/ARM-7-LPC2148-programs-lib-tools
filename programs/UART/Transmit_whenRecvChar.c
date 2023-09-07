@@ -1,6 +1,6 @@
 //Using UART, transmit "Hello" whenever any character is entered
 /*
-Author: Abhinav Sushil Pawar
+Author: Adarsh Gajula
 Date: 19-06-2023
 */
 #include<lpc21xx.h>
