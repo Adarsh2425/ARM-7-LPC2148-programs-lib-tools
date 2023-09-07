@@ -1,6 +1,6 @@
 //Calculator -> Signed Integer (Multiple digits)
 /*
-Author: Abhinav Sushil Pawar
+Author: Adarsh venkatesh gajula
 Date: 20-06-2023
 Constraint: Input and output, both are signed integers (of MAX=6 digits).
 operations that can be performed are: Addition(+), Subtraction(-), Multiplication(*), Division(/), Modulo(%), power(^)
