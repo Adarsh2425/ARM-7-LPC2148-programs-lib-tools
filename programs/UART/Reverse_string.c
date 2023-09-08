@@ -1,6 +1,6 @@
 //Read a string and send it in reverse (UART1)
 /*
-Author: Abhinav Sushil Pawar
+Author: Adarsh Gajula
 Date: 21-06-2023
 */
 #include<lpc21xx.h>
