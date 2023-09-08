@@ -1,6 +1,6 @@
 //Calculator -> Multiple digits
 /*
-Author: Abhinav Sushil Pawar
+Author: Adarsh Gajula
 Date: 20-06-2023
 Constraint: Input and output, both are positive integers (of MAX=6 digits).
 operations that can be performed are: Addition(+), Subtraction(-), Multiplication(*), Division(/), Modulo(%), power(^)
