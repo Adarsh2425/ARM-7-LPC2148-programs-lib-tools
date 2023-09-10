@@ -4,6 +4,8 @@ int decimal_to_binary (int);
 main()
 {
     int binary;
+    
+    
     int lowerlimit=0,upperlimit=15;
     for(int i=lowerlimit;i<=upperlimit;i++)
     {
