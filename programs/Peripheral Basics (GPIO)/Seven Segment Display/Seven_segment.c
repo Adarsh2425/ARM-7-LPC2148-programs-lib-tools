@@ -4,6 +4,7 @@
 
 void delay()
 {
+	
     int i;
     for(i=0;i<2000000;i++);
 }
