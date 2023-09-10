@@ -1,3 +1,4 @@
+
 //Linear search
 #include<stdio.h>
 void linear_search(int array[],int n,int key)
@@ -8,6 +9,8 @@ void linear_search(int array[],int n,int key)
         printf("iteration number: %d\n",i);
         if(array[i]==key)
         {
+
+		
             printf("%d found at index %d\n",key,i);
             flag=1;
             break;
