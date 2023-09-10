@@ -13,6 +13,7 @@ void delay(unsigned int j)
 int main()
 {
     PINSEL1=0X00000000;		//Configure P0.16 to P0.31 as GPIO
+    
     IODIR0=0XF0000000;		//Configure P0.28 to P0.31 as OUTPUT
     while(1)
     {
