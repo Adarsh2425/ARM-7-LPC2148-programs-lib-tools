@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 const char *bin[]=
 {
@@ -6,6 +7,7 @@ const char *bin[]=
 };
 void display(int max)
 {
+   
     int i;
     for(i=0;i<max;i++)
     {
