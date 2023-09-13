@@ -3,7 +3,7 @@
 ****************************************************************************************************
  * File:   uart.h    (ARM controllers)
  * Version: 15.0
- * Author: TechhEngine
+ * Author: Adarsh Gajula
  * Description: Contains the baudrate configurations and function prototypes for UART routines
 
 The libraries have been tested on development boards. We strongly believe that the 
