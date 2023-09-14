@@ -1,4 +1,4 @@
-;Author: Abhinav Pawar
+;Author: Adarsh Gajula
 ;Date: 03-5-2023
 
 ;Alp to Evaluate 9x2+7y -34 only if x>y
