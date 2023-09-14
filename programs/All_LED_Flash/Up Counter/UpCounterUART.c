@@ -3,8 +3,8 @@
 ****************************************************************************************************
  * File:   main.c
  * Version: 16.0
- * Author: TechhEngine
-
+ * Author: Adarsh Gajula
+ 
 This code has been developed and tested on boards.  
 We strongly believe that the library works on any of development boards for respective controllers. 
 TechhEngine DISCLAIMS ANY KIND OF HARDWARE FAILURE RESULTING OUT OF USAGE OF LIBRARIES, DIRECTLY OR
