@@ -1,4 +1,4 @@
-;Author: Abhinav Pawar
+;Author: Adarsh Gajula
 ;Date: 03-5-2023
 
 ;TOLLGATE ,based on the state from which vehicle is coming particular charge is set
