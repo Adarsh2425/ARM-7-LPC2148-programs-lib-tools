@@ -3,7 +3,7 @@
 ****************************************************************************************************
  * File:   main.c
  * Version: 16.0
- * Author: TechhEngine
+ * Author: Adarsh Gajula
 
 
 This code has been developed and tested on boards.  
@@ -26,10 +26,6 @@ THIS PROGRAM WAS WRITTEN AND COMPILED IN KEIL4 SOFTWARE.
 Add library files i.e., 'systemInit.c, uart.c, delay.c, gpio.c' along with the main program file 
 (this file)to compile. And also make sure to add .h files for the respective .c files, in the folder
 where you save the project file.
-the above mentioned header files can be found in Library files folder from the GitHub repository
-https://github.com/lucciffer/ARM-LPC2148 
-THIS PROJECT IS TESTED AND VERIFIED ON SIMULATION TOOLS AND AS WELL AS BOARDS.
-IN CASE OF ERRORS AND QUERIES, DROP YOUR MAIL AT: techh.engine@gmail.com
 ***************************************************************************************************/
 #include <lpc214x.h>
 #include <string.h>
