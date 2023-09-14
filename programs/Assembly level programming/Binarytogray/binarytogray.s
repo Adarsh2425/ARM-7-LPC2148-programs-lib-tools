@@ -1,4 +1,4 @@
-;Author: Abhinav Pawar
+;Author: Adarsh Gajula
 ;Date: 03-5-2023
 
 ;Binary to gray for the halfwords in the list
