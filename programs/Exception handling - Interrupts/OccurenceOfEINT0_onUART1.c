@@ -1,6 +1,6 @@
 //Q.No. 4) Occurence of EINT0 on UART1
 /*
-Author: Abhinav Sushil Pawar
+Author: Adarsh Gajula
 Date: 26-06-2023
 Constraint: Maximum 99 interrupt counts can be displayed on UART1
 */
