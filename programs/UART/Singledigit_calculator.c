@@ -1,3 +1,5 @@
+
+
 //Calculator -> single digit
 /*
 Author: Adarsh Gajula
@@ -5,6 +7,8 @@ Date: 19-06-2023
 Constraint: Input and output, both are positive single digit integers.
 operations that can be performed are: Addition(+), Subtraction(-), Multiplication(*), Division(/), Modulo(%)
 */
+
+
 #include<lpc21xx.h>
 void serial()
 {
