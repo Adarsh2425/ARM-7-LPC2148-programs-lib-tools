@@ -1,3 +1,4 @@
+
 # Ignore compiled binary files
 *.hex
 *.bin
