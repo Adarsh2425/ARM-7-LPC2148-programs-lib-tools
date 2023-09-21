@@ -1,4 +1,3 @@
-
 #include "systemInit.h"
 #include "lcd.h"
 #include "uart.h"
