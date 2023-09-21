@@ -17,7 +17,7 @@ Welcome to the ARM-LPC2148 repository! This repository contains a comprehensive 
 
 - **Serial Communication:** With two UARTs (Universal Asynchronous Receiver-Transmitters), the LPC2148 simplifies asynchronous serial communication. These UARTs enable seamless interaction with external devices, facilitating data exchange in a multitude of applications.
 
-- **Analog-to-Digital Conversion (ADC):** The LPC2148 boasts two 10-bit ADCs with the capability to handle up to 14 analog input channels. This facilitates accurate conversion of analog signals, making it indispensable for applications involving sensor interfacing and data acquisition.
+- **Analog-to-Digital Conversion (ADC):** The LPC2148 boasts two 10-bit ADCs with the capability to handle up to 14 analog input channels. This facilitates the accurate conversion of analog signals, making it indispensable for applications involving sensor interfacing and data acquisition.
 
 - **General-Purpose I/O (GPIO):** Featuring a substantial number of GPIO pins, the LPC2148 empowers developers to interface with external components like LEDs, switches, and displays. These pins can be configured as inputs or outputs, granting versatility in hardware design.
 
@@ -102,22 +102,6 @@ Welcome to the ARM-LPC2148 repository! This repository contains a collection of 
 - **Expt5b_I2C_EEPROM_n_UART:** Code for I2C EEPROM and UART interfacing.
 - **TFT_8bit_Interface_ILI9325:** Code for 8-bit TFT LCD interface (ILI9325).
 - **TFT_16bit_Interface_SSD1289:** Code for 16-bit TFT LCD interface (SSD1289).
-
-### Labs
-- **Board Check Code:** Code for checking the board's functionality.
-- **lab-01:** LED control experiment.
-- **lab-02:** LED chasing experiment.
-- **lab-03:** LCD interface experiment.
-- **lab-04:** Scrolling text on the LCD.
-- **lab-05:** GLCD interface and experimentation.
-- **lab-06:** Phase-Locked Loop (PLL) experiments.
-- **lab-07:** UART communication experiments.
-- **lab-08:** GSM module experiments.
-- **lab-09:** GSM module experiments.
-- **lab-10:** ADC experiments.
-- **lab-11:** ADC with Interrupt experiments.
-- **lab-12:** GLCD and ADC Combined experiments.
-- ... (List other lab descriptions)
 
 ### Assembly Level Programs
 - Collection of ARM assembly programs for LPC2148 microcontroller.
