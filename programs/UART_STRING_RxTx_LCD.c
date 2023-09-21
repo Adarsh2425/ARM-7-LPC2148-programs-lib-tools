@@ -3,7 +3,6 @@
 #include "uart.h"
 #include "delay.h" 
 
-
 int main() 
 {	    
     char str[50];  
