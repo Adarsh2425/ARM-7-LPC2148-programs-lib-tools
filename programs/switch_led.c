@@ -1,7 +1,5 @@
 //#include "gpio.h"
-
 #include <lpc214x.h>   
-
 #define SwitchPinNumber 31
 #define LedPinNumber    20
 
