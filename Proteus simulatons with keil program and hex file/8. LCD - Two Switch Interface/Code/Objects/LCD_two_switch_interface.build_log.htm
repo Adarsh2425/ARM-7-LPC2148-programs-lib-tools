@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Srilatha P, HP Inc., LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARM.DLL V5.29.0.0
+Dialog DLL:      DARMP.DLL V1.53.0.0
+Target DLL:      UL2ARM.DLL V1.74.10.0
+Dialog DLL:      TARMP.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+G:\Srilatha - Manipal\M.E - Embedded Systems\1. MCA\Lab\Keil and Proteus\8. LCD - Two Switch Interface\Code\LCD_two_switch_interface.uvproj
+Project File Date:  10/28/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling lcd_two_switch_interface.c...
+lcd_header.h(1): warning:  #1295-D: Deprecated declaration lcd_init - give arg types
+  void lcd_init();                //LCD initialization function
+lcd_header.h(5): warning:  #1-D: last line of file ends without a newline
+  void delay();                   //Function to generate a delay
+lcd_header.h(5): warning:  #1295-D: Deprecated declaration delay - give arg types
+  void delay();                   //Function to generate a delay
+lcd_two_switch_interface.c(13): warning:  #223-D: function "sprintf" declared implicitly
+  	sprintf(val_j,"%d ",j);               
+lcd_two_switch_interface.c(14): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  	lcd_dis(val_j);	                    // Display the initial count value on the LCD i.e.count=0
+lcd_two_switch_interface.c(21): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  		     lcd_dis(val_j);	            // Display the count value on LCD
+lcd_two_switch_interface.c(29): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  		     lcd_dis(val_j);	              // Display the count value on LCD
+lcd_two_switch_interface.c(33): warning:  #111-D: statement is unreachable
+  	}return 0;
+lcd_two_switch_interface.c: 8 warnings, 0 errors
+linking...
+Program Size: Code=1672 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+".\Objects\LCD_two_switch_interface.axf" - 0 Error(s), 8 Warning(s).
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
