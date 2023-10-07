@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Srilatha P, HP Inc., LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARM.DLL V5.29.0.0
+Dialog DLL:      DARMP.DLL V1.53.0.0
+Target DLL:      UL2ARM.DLL V1.74.10.0
+Dialog DLL:      TARMP.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+I:\Timers\timers.uvproj
+Project File Date:  11/07/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling timer0.c...
+timer0.h(2): warning:  #1-D: last line of file ends without a newline
+  void delay_microseconds(unsigned int microseconds);
+timer0.c(25): warning:  #1-D: last line of file ends without a newline
+  }
+timer0.c: 2 warnings, 0 errors
+compiling main.c...
+timer0.h(2): warning:  #1-D: last line of file ends without a newline
+  void delay_microseconds(unsigned int microseconds);
+pll.h(1): warning:  #1-D: last line of file ends without a newline
+  void init_pll();
+pll.h(1): warning:  #1295-D: Deprecated declaration init_pll - give arg types
+  void init_pll();
+main.c(12): warning:  #1-D: last line of file ends without a newline
+  }
+main.c: 4 warnings, 0 errors
+compiling pll.c...
+pll.h(1): warning:  #1-D: last line of file ends without a newline
+  void init_pll();
+pll.h(1): warning:  #1295-D: Deprecated declaration init_pll - give arg types
+  void init_pll();
+pll.c(15): warning:  #1-D: last line of file ends without a newline
+  }
+pll.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=688 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+".\Objects\timers.axf" - 0 Error(s), 9 Warning(s).
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
