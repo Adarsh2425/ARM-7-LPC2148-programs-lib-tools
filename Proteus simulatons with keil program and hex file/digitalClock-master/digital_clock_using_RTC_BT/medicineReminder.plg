@@ -1,0 +1,22 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Useful\SummerCourse\ARM\ARM Programmes\Medicine remainder using RTC and GPS\medicine remainder.uvproj
+Project File Date:  06/11/2019
+
+<h2>Output:</h2>
+compiling medicine.c...
+medicine.c(83): error:  #65: expected a ";"
+medicine.c:      LCD_CMD(0xC0);
+medicine.c:      ^
+medicine.c: medicine.c: 0 warnings, 1 error
+medicine.c - 1 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=5956 RO-data=304 RW-data=56 ZI-data=1256  
+FromELF: creating hex file...
+"medicineReminder.axf" - 0 Error(s), 0 Warning(s).

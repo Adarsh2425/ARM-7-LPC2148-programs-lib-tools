@@ -1,0 +1,967 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Useful\SummerCourse\ARM\ARM Programmes\Medicine remainder using RTC and GPS\medicine remainder.uvproj
+Project File Date:  05/28/2019
+
+<h2>Output:</h2>
+compiling medicine.c...
+Keypad Header.h(13): error:  #148: variable "keypad_matrix" has already been initialized
+Keypad Header.h:   unsigned char keypad_matrix[4][4]= {{'7','8','9','%'},
+Keypad Header.h:                 ^
+Keypad Header.h(18): error:  #247: function "keypad_init" has already been defined
+Keypad Header.h:   void keypad_init()
+Keypad Header.h:        ^
+Keypad Header.h(25): error:  #247: function "key_detect" has already been defined
+Keypad Header.h:   unsigned char key_detect()
+Keypad Header.h:                 ^
+edit header.h(10): error:  #20: identifier "key_val" is undefined
+edit header.h:    key_val = key_detect();
+edit header.h:    ^
+edit header.h(19): error:  #20: identifier "hr" is undefined
+edit header.h:                     hr[i]=key_detect();
+edit header.h:                     ^
+edit header.h(22): error:  #20: identifier "hour" is undefined
+edit header.h:            hour = int_conversion(hr);
+edit header.h:            ^
+edit header.h(22): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            hour = int_conversion(hr);
+edit header.h:                   ^
+edit header.h(22): error:  #20: identifier "hr" is undefined
+edit header.h:            hour = int_conversion(hr);
+edit header.h:                                  ^
+edit header.h(29): error:  #20: identifier "mi" is undefined
+edit header.h:                     mi[i]=key_detect();
+edit header.h:                     ^
+edit header.h(32): error:  #20: identifier "min" is undefined
+edit header.h:            min = int_conversion(mi);
+edit header.h:            ^
+edit header.h(32): error:  #20: identifier "mi" is undefined
+edit header.h:            min = int_conversion(mi);
+edit header.h:                                 ^
+edit header.h(39): error:  #20: identifier "se" is undefined
+edit header.h:                     se[i]=key_detect();
+edit header.h:                     ^
+edit header.h(42): error:  #20: identifier "sec" is undefined
+edit header.h:            sec = int_conversion(se);
+edit header.h:            ^
+edit header.h(42): error:  #20: identifier "se" is undefined
+edit header.h:            sec = int_conversion(se);
+edit header.h:                                 ^
+edit header.h(54): error:  #20: identifier "hr" is undefined
+edit header.h:                     hr[i]=key_detect();
+edit header.h:                     ^
+edit header.h(57): error:  #20: identifier "alhour" is undefined
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:            ^
+edit header.h(57): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:                     ^
+edit header.h(57): error:  #20: identifier "hr" is undefined
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:                                    ^
+edit header.h(64): error:  #20: identifier "mi" is undefined
+edit header.h:                     mi[i]=key_detect();
+edit header.h:                     ^
+edit header.h(67): error:  #20: identifier "almin" is undefined
+edit header.h:            almin = int_conversion(mi);
+edit header.h:            ^
+edit header.h(67): error:  #20: identifier "mi" is undefined
+edit header.h:            almin = int_conversion(mi);
+edit header.h:                                   ^
+edit header.h(74): error:  #20: identifier "se" is undefined
+edit header.h:                     se[i]=key_detect();
+edit header.h:                     ^
+edit header.h(77): error:  #20: identifier "alsec" is undefined
+edit header.h:            alsec = int_conversion(se);
+edit header.h:            ^
+edit header.h(77): error:  #20: identifier "se" is undefined
+edit header.h:            alsec = int_conversion(se);
+edit header.h:                                   ^
+edit header.h(83): error:  #118: a void function may not return a value
+edit header.h:            return 0;
+edit header.h:                   ^
+edit header.h(85): error:  #118: a void function may not return a value
+edit header.h:     return 1;
+edit header.h:            ^
+edit header.h(86): warning:  #1-D: last line of file ends without a newline
+edit header.h:   }
+edit header.h:    ^
+UART Header.h(51): warning:  #1-D: last line of file ends without a newline
+UART Header.h:   */
+UART Header.h:     ^
+medicine.c(22): error:  #169: expected a declaration
+medicine.c:   1void ISR_KEYPAD(void) __irq
+medicine.c:   ^
+medicine.c(92): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+medicine.c: medicine.c: 5 warnings, 25 errors
+medicine.c - 25 Error(s), 5 Warning(s).
+compiling medicine.c...
+Keypad Header.h(13): error:  #148: variable "keypad_matrix" has already been initialized
+Keypad Header.h:   unsigned char keypad_matrix[4][4]= {{'7','8','9','%'},
+Keypad Header.h:                 ^
+Keypad Header.h(18): error:  #247: function "keypad_init" has already been defined
+Keypad Header.h:   void keypad_init()
+Keypad Header.h:        ^
+Keypad Header.h(25): error:  #247: function "key_detect" has already been defined
+Keypad Header.h:   unsigned char key_detect()
+Keypad Header.h:                 ^
+edit header.h(10): error:  #20: identifier "key_val" is undefined
+edit header.h:    key_val = key_detect();
+edit header.h:    ^
+edit header.h(19): error:  #20: identifier "hr" is undefined
+edit header.h:                     hr[i]=key_detect();
+edit header.h:                     ^
+edit header.h(22): error:  #20: identifier "hour" is undefined
+edit header.h:            hour = int_conversion(hr);
+edit header.h:            ^
+edit header.h(22): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            hour = int_conversion(hr);
+edit header.h:                   ^
+edit header.h(22): error:  #20: identifier "hr" is undefined
+edit header.h:            hour = int_conversion(hr);
+edit header.h:                                  ^
+edit header.h(29): error:  #20: identifier "mi" is undefined
+edit header.h:                     mi[i]=key_detect();
+edit header.h:                     ^
+edit header.h(32): error:  #20: identifier "min" is undefined
+edit header.h:            min = int_conversion(mi);
+edit header.h:            ^
+edit header.h(32): error:  #20: identifier "mi" is undefined
+edit header.h:            min = int_conversion(mi);
+edit header.h:                                 ^
+edit header.h(39): error:  #20: identifier "se" is undefined
+edit header.h:                     se[i]=key_detect();
+edit header.h:                     ^
+edit header.h(42): error:  #20: identifier "sec" is undefined
+edit header.h:            sec = int_conversion(se);
+edit header.h:            ^
+edit header.h(42): error:  #20: identifier "se" is undefined
+edit header.h:            sec = int_conversion(se);
+edit header.h:                                 ^
+edit header.h(54): error:  #20: identifier "hr" is undefined
+edit header.h:                     hr[i]=key_detect();
+edit header.h:                     ^
+edit header.h(57): error:  #20: identifier "alhour" is undefined
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:            ^
+edit header.h(57): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:                     ^
+edit header.h(57): error:  #20: identifier "hr" is undefined
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:                                    ^
+edit header.h(64): error:  #20: identifier "mi" is undefined
+edit header.h:                     mi[i]=key_detect();
+edit header.h:                     ^
+edit header.h(67): error:  #20: identifier "almin" is undefined
+edit header.h:            almin = int_conversion(mi);
+edit header.h:            ^
+edit header.h(67): error:  #20: identifier "mi" is undefined
+edit header.h:            almin = int_conversion(mi);
+edit header.h:                                   ^
+edit header.h(74): error:  #20: identifier "se" is undefined
+edit header.h:                     se[i]=key_detect();
+edit header.h:                     ^
+edit header.h(77): error:  #20: identifier "alsec" is undefined
+edit header.h:            alsec = int_conversion(se);
+edit header.h:            ^
+edit header.h(77): error:  #20: identifier "se" is undefined
+edit header.h:            alsec = int_conversion(se);
+edit header.h:                                   ^
+edit header.h(83): error:  #118: a void function may not return a value
+edit header.h:            return 0;
+edit header.h:                   ^
+edit header.h(85): error:  #118: a void function may not return a value
+edit header.h:     return 1;
+edit header.h:            ^
+edit header.h(86): warning:  #1-D: last line of file ends without a newline
+edit header.h:   }
+edit header.h:    ^
+UART Header.h(51): warning:  #1-D: last line of file ends without a newline
+UART Header.h:   */
+UART Header.h:     ^
+medicine.c(22): error:  #169: expected a declaration
+medicine.c:   1void ISR_KEYPAD(void) __irq
+medicine.c:   ^
+medicine.c(92): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+medicine.c: medicine.c: 5 warnings, 25 errors
+medicine.c - 25 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling medicine.c...
+Keypad Header.h(13): error:  #148: variable "keypad_matrix" has already been initialized
+Keypad Header.h:   unsigned char keypad_matrix[4][4]= {{'7','8','9','%'},
+Keypad Header.h:                 ^
+Keypad Header.h(18): error:  #247: function "keypad_init" has already been defined
+Keypad Header.h:   void keypad_init()
+Keypad Header.h:        ^
+Keypad Header.h(25): error:  #247: function "key_detect" has already been defined
+Keypad Header.h:   unsigned char key_detect()
+Keypad Header.h:                 ^
+edit header.h(10): error:  #20: identifier "key_val" is undefined
+edit header.h:    key_val = key_detect();
+edit header.h:    ^
+edit header.h(19): error:  #20: identifier "hr" is undefined
+edit header.h:                     hr[i]=key_detect();
+edit header.h:                     ^
+edit header.h(22): error:  #20: identifier "hour" is undefined
+edit header.h:            hour = int_conversion(hr);
+edit header.h:            ^
+edit header.h(22): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            hour = int_conversion(hr);
+edit header.h:                   ^
+edit header.h(22): error:  #20: identifier "hr" is undefined
+edit header.h:            hour = int_conversion(hr);
+edit header.h:                                  ^
+edit header.h(29): error:  #20: identifier "mi" is undefined
+edit header.h:                     mi[i]=key_detect();
+edit header.h:                     ^
+edit header.h(32): error:  #20: identifier "min" is undefined
+edit header.h:            min = int_conversion(mi);
+edit header.h:            ^
+edit header.h(32): error:  #20: identifier "mi" is undefined
+edit header.h:            min = int_conversion(mi);
+edit header.h:                                 ^
+edit header.h(39): error:  #20: identifier "se" is undefined
+edit header.h:                     se[i]=key_detect();
+edit header.h:                     ^
+edit header.h(42): error:  #20: identifier "sec" is undefined
+edit header.h:            sec = int_conversion(se);
+edit header.h:            ^
+edit header.h(42): error:  #20: identifier "se" is undefined
+edit header.h:            sec = int_conversion(se);
+edit header.h:                                 ^
+edit header.h(54): error:  #20: identifier "hr" is undefined
+edit header.h:                     hr[i]=key_detect();
+edit header.h:                     ^
+edit header.h(57): error:  #20: identifier "alhour" is undefined
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:            ^
+edit header.h(57): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:                     ^
+edit header.h(57): error:  #20: identifier "hr" is undefined
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:                                    ^
+edit header.h(64): error:  #20: identifier "mi" is undefined
+edit header.h:                     mi[i]=key_detect();
+edit header.h:                     ^
+edit header.h(67): error:  #20: identifier "almin" is undefined
+edit header.h:            almin = int_conversion(mi);
+edit header.h:            ^
+edit header.h(67): error:  #20: identifier "mi" is undefined
+edit header.h:            almin = int_conversion(mi);
+edit header.h:                                   ^
+edit header.h(74): error:  #20: identifier "se" is undefined
+edit header.h:                     se[i]=key_detect();
+edit header.h:                     ^
+edit header.h(77): error:  #20: identifier "alsec" is undefined
+edit header.h:            alsec = int_conversion(se);
+edit header.h:            ^
+edit header.h(77): error:  #20: identifier "se" is undefined
+edit header.h:            alsec = int_conversion(se);
+edit header.h:                                   ^
+edit header.h(83): error:  #118: a void function may not return a value
+edit header.h:            return 0;
+edit header.h:                   ^
+edit header.h(85): error:  #118: a void function may not return a value
+edit header.h:     return 1;
+edit header.h:            ^
+edit header.h(86): warning:  #1-D: last line of file ends without a newline
+edit header.h:   }
+edit header.h:    ^
+UART Header.h(51): warning:  #1-D: last line of file ends without a newline
+UART Header.h:   */
+UART Header.h:     ^
+medicine.c(22): error:  #169: expected a declaration
+medicine.c:   1void ISR_KEYPAD(void) __irq
+medicine.c:   ^
+medicine.c(92): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+medicine.c: medicine.c: 5 warnings, 25 errors
+Target not created
+compiling medicine.c...
+edit header.h(9): error:  #20: identifier "key_val" is undefined
+edit header.h:    key_val = key_detect();
+edit header.h:    ^
+edit header.h(18): error:  #20: identifier "hr" is undefined
+edit header.h:                     hr[i]=key_detect();
+edit header.h:                     ^
+edit header.h(21): error:  #20: identifier "hour" is undefined
+edit header.h:            hour = int_conversion(hr);
+edit header.h:            ^
+edit header.h(21): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            hour = int_conversion(hr);
+edit header.h:                   ^
+edit header.h(21): error:  #20: identifier "hr" is undefined
+edit header.h:            hour = int_conversion(hr);
+edit header.h:                                  ^
+edit header.h(28): error:  #20: identifier "mi" is undefined
+edit header.h:                     mi[i]=key_detect();
+edit header.h:                     ^
+edit header.h(31): error:  #20: identifier "min" is undefined
+edit header.h:            min = int_conversion(mi);
+edit header.h:            ^
+edit header.h(31): error:  #20: identifier "mi" is undefined
+edit header.h:            min = int_conversion(mi);
+edit header.h:                                 ^
+edit header.h(38): error:  #20: identifier "se" is undefined
+edit header.h:                     se[i]=key_detect();
+edit header.h:                     ^
+edit header.h(41): error:  #20: identifier "sec" is undefined
+edit header.h:            sec = int_conversion(se);
+edit header.h:            ^
+edit header.h(41): error:  #20: identifier "se" is undefined
+edit header.h:            sec = int_conversion(se);
+edit header.h:                                 ^
+edit header.h(53): error:  #20: identifier "hr" is undefined
+edit header.h:                     hr[i]=key_detect();
+edit header.h:                     ^
+edit header.h(56): error:  #20: identifier "alhour" is undefined
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:            ^
+edit header.h(56): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:                     ^
+edit header.h(56): error:  #20: identifier "hr" is undefined
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:                                    ^
+edit header.h(63): error:  #20: identifier "mi" is undefined
+edit header.h:                     mi[i]=key_detect();
+edit header.h:                     ^
+edit header.h(66): error:  #20: identifier "almin" is undefined
+edit header.h:            almin = int_conversion(mi);
+edit header.h:            ^
+edit header.h(66): error:  #20: identifier "mi" is undefined
+edit header.h:            almin = int_conversion(mi);
+edit header.h:                                   ^
+edit header.h(73): error:  #20: identifier "se" is undefined
+edit header.h:                     se[i]=key_detect();
+edit header.h:                     ^
+edit header.h(76): error:  #20: identifier "alsec" is undefined
+edit header.h:            alsec = int_conversion(se);
+edit header.h:            ^
+edit header.h(76): error:  #20: identifier "se" is undefined
+edit header.h:            alsec = int_conversion(se);
+edit header.h:                                   ^
+edit header.h(82): error:  #118: a void function may not return a value
+edit header.h:            return 0;
+edit header.h:                   ^
+edit header.h(84): error:  #118: a void function may not return a value
+edit header.h:     return 1;
+edit header.h:            ^
+edit header.h(85): warning:  #1-D: last line of file ends without a newline
+edit header.h:   }
+edit header.h:    ^
+UART Header.h(51): warning:  #1-D: last line of file ends without a newline
+UART Header.h:   */
+UART Header.h:     ^
+medicine.c(22): error:  #169: expected a declaration
+medicine.c:   1void ISR_KEYPAD(void) __irq
+medicine.c:   ^
+medicine.c(92): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+medicine.c: medicine.c: 5 warnings, 22 errors
+medicine.c - 22 Error(s), 5 Warning(s).
+compiling medicine.c...
+edit header.h(8): error:  #20: identifier "key_val" is undefined
+edit header.h:    key_val = key_detect();
+edit header.h:    ^
+edit header.h(17): error:  #20: identifier "hr" is undefined
+edit header.h:                     hr[i]=key_detect();
+edit header.h:                     ^
+edit header.h(20): error:  #20: identifier "hour" is undefined
+edit header.h:            hour = int_conversion(hr);
+edit header.h:            ^
+edit header.h(20): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            hour = int_conversion(hr);
+edit header.h:                   ^
+edit header.h(20): error:  #20: identifier "hr" is undefined
+edit header.h:            hour = int_conversion(hr);
+edit header.h:                                  ^
+edit header.h(27): error:  #20: identifier "mi" is undefined
+edit header.h:                     mi[i]=key_detect();
+edit header.h:                     ^
+edit header.h(30): error:  #20: identifier "min" is undefined
+edit header.h:            min = int_conversion(mi);
+edit header.h:            ^
+edit header.h(30): error:  #20: identifier "mi" is undefined
+edit header.h:            min = int_conversion(mi);
+edit header.h:                                 ^
+edit header.h(37): error:  #20: identifier "se" is undefined
+edit header.h:                     se[i]=key_detect();
+edit header.h:                     ^
+edit header.h(40): error:  #20: identifier "sec" is undefined
+edit header.h:            sec = int_conversion(se);
+edit header.h:            ^
+edit header.h(40): error:  #20: identifier "se" is undefined
+edit header.h:            sec = int_conversion(se);
+edit header.h:                                 ^
+edit header.h(52): error:  #20: identifier "hr" is undefined
+edit header.h:                     hr[i]=key_detect();
+edit header.h:                     ^
+edit header.h(55): error:  #20: identifier "alhour" is undefined
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:            ^
+edit header.h(55): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:                     ^
+edit header.h(55): error:  #20: identifier "hr" is undefined
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:                                    ^
+edit header.h(62): error:  #20: identifier "mi" is undefined
+edit header.h:                     mi[i]=key_detect();
+edit header.h:                     ^
+edit header.h(65): error:  #20: identifier "almin" is undefined
+edit header.h:            almin = int_conversion(mi);
+edit header.h:            ^
+edit header.h(65): error:  #20: identifier "mi" is undefined
+edit header.h:            almin = int_conversion(mi);
+edit header.h:                                   ^
+edit header.h(72): error:  #20: identifier "se" is undefined
+edit header.h:                     se[i]=key_detect();
+edit header.h:                     ^
+edit header.h(75): error:  #20: identifier "alsec" is undefined
+edit header.h:            alsec = int_conversion(se);
+edit header.h:            ^
+edit header.h(75): error:  #20: identifier "se" is undefined
+edit header.h:            alsec = int_conversion(se);
+edit header.h:                                   ^
+edit header.h(84): warning:  #1-D: last line of file ends without a newline
+edit header.h:   }
+edit header.h:    ^
+medicine.c(22): error:  #169: expected a declaration
+medicine.c:   1void ISR_KEYPAD(void) __irq
+medicine.c:   ^
+medicine.c(92): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+medicine.c: medicine.c: 4 warnings, 20 errors
+medicine.c - 20 Error(s), 4 Warning(s).
+compiling medicine.c...
+edit header.h(8): error:  #20: identifier "key_val" is undefined
+edit header.h:    key_val = key_detect();
+edit header.h:    ^
+edit header.h(17): error:  #20: identifier "hr" is undefined
+edit header.h:                     hr[i]=key_detect();
+edit header.h:                     ^
+edit header.h(20): error:  #20: identifier "hour" is undefined
+edit header.h:            hour = int_conversion(hr);
+edit header.h:            ^
+edit header.h(20): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            hour = int_conversion(hr);
+edit header.h:                   ^
+edit header.h(20): error:  #20: identifier "hr" is undefined
+edit header.h:            hour = int_conversion(hr);
+edit header.h:                                  ^
+edit header.h(27): error:  #20: identifier "mi" is undefined
+edit header.h:                     mi[i]=key_detect();
+edit header.h:                     ^
+edit header.h(30): error:  #20: identifier "min" is undefined
+edit header.h:            min = int_conversion(mi);
+edit header.h:            ^
+edit header.h(30): error:  #20: identifier "mi" is undefined
+edit header.h:            min = int_conversion(mi);
+edit header.h:                                 ^
+edit header.h(37): error:  #20: identifier "se" is undefined
+edit header.h:                     se[i]=key_detect();
+edit header.h:                     ^
+edit header.h(40): error:  #20: identifier "sec" is undefined
+edit header.h:            sec = int_conversion(se);
+edit header.h:            ^
+edit header.h(40): error:  #20: identifier "se" is undefined
+edit header.h:            sec = int_conversion(se);
+edit header.h:                                 ^
+edit header.h(52): error:  #20: identifier "hr" is undefined
+edit header.h:                     hr[i]=key_detect();
+edit header.h:                     ^
+edit header.h(55): error:  #20: identifier "alhour" is undefined
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:            ^
+edit header.h(55): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:                     ^
+edit header.h(55): error:  #20: identifier "hr" is undefined
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:                                    ^
+edit header.h(62): error:  #20: identifier "mi" is undefined
+edit header.h:                     mi[i]=key_detect();
+edit header.h:                     ^
+edit header.h(65): error:  #20: identifier "almin" is undefined
+edit header.h:            almin = int_conversion(mi);
+edit header.h:            ^
+edit header.h(65): error:  #20: identifier "mi" is undefined
+edit header.h:            almin = int_conversion(mi);
+edit header.h:                                   ^
+edit header.h(72): error:  #20: identifier "se" is undefined
+edit header.h:                     se[i]=key_detect();
+edit header.h:                     ^
+edit header.h(75): error:  #20: identifier "alsec" is undefined
+edit header.h:            alsec = int_conversion(se);
+edit header.h:            ^
+edit header.h(75): error:  #20: identifier "se" is undefined
+edit header.h:            alsec = int_conversion(se);
+edit header.h:                                   ^
+edit header.h(84): warning:  #1-D: last line of file ends without a newline
+edit header.h:   }
+edit header.h:    ^
+medicine.c(21): error:  #169: expected a declaration
+medicine.c:   1void ISR_KEYPAD(void) __irq
+medicine.c:   ^
+medicine.c(91): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+medicine.c: medicine.c: 4 warnings, 20 errors
+medicine.c - 20 Error(s), 4 Warning(s).
+compiling medicine.c...
+edit header.h(19): error:  #20: identifier "hr" is undefined
+edit header.h:                     hr[i]=key_detect();
+edit header.h:                     ^
+edit header.h(22): error:  #20: identifier "hour" is undefined
+edit header.h:            hour = int_conversion(hr);
+edit header.h:            ^
+edit header.h(22): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            hour = int_conversion(hr);
+edit header.h:                   ^
+edit header.h(22): error:  #20: identifier "hr" is undefined
+edit header.h:            hour = int_conversion(hr);
+edit header.h:                                  ^
+edit header.h(29): error:  #20: identifier "mi" is undefined
+edit header.h:                     mi[i]=key_detect();
+edit header.h:                     ^
+edit header.h(32): error:  #20: identifier "min" is undefined
+edit header.h:            min = int_conversion(mi);
+edit header.h:            ^
+edit header.h(32): error:  #20: identifier "mi" is undefined
+edit header.h:            min = int_conversion(mi);
+edit header.h:                                 ^
+edit header.h(39): error:  #20: identifier "se" is undefined
+edit header.h:                     se[i]=key_detect();
+edit header.h:                     ^
+edit header.h(42): error:  #20: identifier "sec" is undefined
+edit header.h:            sec = int_conversion(se);
+edit header.h:            ^
+edit header.h(42): error:  #20: identifier "se" is undefined
+edit header.h:            sec = int_conversion(se);
+edit header.h:                                 ^
+edit header.h(54): error:  #20: identifier "hr" is undefined
+edit header.h:                     hr[i]=key_detect();
+edit header.h:                     ^
+edit header.h(57): error:  #20: identifier "alhour" is undefined
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:            ^
+edit header.h(57): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:                     ^
+edit header.h(57): error:  #20: identifier "hr" is undefined
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:                                    ^
+edit header.h(64): error:  #20: identifier "mi" is undefined
+edit header.h:                     mi[i]=key_detect();
+edit header.h:                     ^
+edit header.h(67): error:  #20: identifier "almin" is undefined
+edit header.h:            almin = int_conversion(mi);
+edit header.h:            ^
+edit header.h(67): error:  #20: identifier "mi" is undefined
+edit header.h:            almin = int_conversion(mi);
+edit header.h:                                   ^
+edit header.h(74): error:  #20: identifier "se" is undefined
+edit header.h:                     se[i]=key_detect();
+edit header.h:                     ^
+edit header.h(77): error:  #20: identifier "alsec" is undefined
+edit header.h:            alsec = int_conversion(se);
+edit header.h:            ^
+edit header.h(77): error:  #20: identifier "se" is undefined
+edit header.h:            alsec = int_conversion(se);
+edit header.h:                                   ^
+edit header.h(86): warning:  #1-D: last line of file ends without a newline
+edit header.h:   }
+edit header.h:    ^
+medicine.c(20): error:  #169: expected a declaration
+medicine.c:   1void ISR_KEYPAD(void) __irq
+medicine.c:   ^
+medicine.c(90): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+medicine.c: medicine.c: 4 warnings, 19 errors
+medicine.c - 19 Error(s), 4 Warning(s).
+compiling medicine.c...
+edit header.h(19): error:  #20: identifier "hr" is undefined
+edit header.h:                     hr[i]=key_detect();
+edit header.h:                     ^
+edit header.h(22): error:  #20: identifier "hour" is undefined
+edit header.h:            hour = int_conversion(hr);
+edit header.h:            ^
+edit header.h(22): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            hour = int_conversion(hr);
+edit header.h:                   ^
+edit header.h(22): error:  #20: identifier "hr" is undefined
+edit header.h:            hour = int_conversion(hr);
+edit header.h:                                  ^
+edit header.h(29): error:  #20: identifier "mi" is undefined
+edit header.h:                     mi[i]=key_detect();
+edit header.h:                     ^
+edit header.h(32): error:  #20: identifier "min" is undefined
+edit header.h:            min = int_conversion(mi);
+edit header.h:            ^
+edit header.h(32): error:  #20: identifier "mi" is undefined
+edit header.h:            min = int_conversion(mi);
+edit header.h:                                 ^
+edit header.h(39): error:  #20: identifier "se" is undefined
+edit header.h:                     se[i]=key_detect();
+edit header.h:                     ^
+edit header.h(42): error:  #20: identifier "sec" is undefined
+edit header.h:            sec = int_conversion(se);
+edit header.h:            ^
+edit header.h(42): error:  #20: identifier "se" is undefined
+edit header.h:            sec = int_conversion(se);
+edit header.h:                                 ^
+edit header.h(54): error:  #20: identifier "hr" is undefined
+edit header.h:                     hr[i]=key_detect();
+edit header.h:                     ^
+edit header.h(57): error:  #20: identifier "alhour" is undefined
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:            ^
+edit header.h(57): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:                     ^
+edit header.h(57): error:  #20: identifier "hr" is undefined
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:                                    ^
+edit header.h(64): error:  #20: identifier "mi" is undefined
+edit header.h:                     mi[i]=key_detect();
+edit header.h:                     ^
+edit header.h(67): error:  #20: identifier "almin" is undefined
+edit header.h:            almin = int_conversion(mi);
+edit header.h:            ^
+edit header.h(67): error:  #20: identifier "mi" is undefined
+edit header.h:            almin = int_conversion(mi);
+edit header.h:                                   ^
+edit header.h(74): error:  #20: identifier "se" is undefined
+edit header.h:                     se[i]=key_detect();
+edit header.h:                     ^
+edit header.h(77): error:  #20: identifier "alsec" is undefined
+edit header.h:            alsec = int_conversion(se);
+edit header.h:            ^
+edit header.h(77): error:  #20: identifier "se" is undefined
+edit header.h:            alsec = int_conversion(se);
+edit header.h:                                   ^
+edit header.h(86): warning:  #1-D: last line of file ends without a newline
+edit header.h:   }
+edit header.h:    ^
+edit header.h: medicine.c: 3 warnings, 18 errors
+medicine.c - 18 Error(s), 3 Warning(s).
+compiling medicine.c...
+edit header.h(23): error:  #20: identifier "hour" is undefined
+edit header.h:            hour = int_conversion(hr);
+edit header.h:            ^
+edit header.h(23): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            hour = int_conversion(hr);
+edit header.h:                   ^
+edit header.h(33): error:  #20: identifier "min" is undefined
+edit header.h:            min = int_conversion(mi);
+edit header.h:            ^
+edit header.h(43): error:  #20: identifier "sec" is undefined
+edit header.h:            sec = int_conversion(se);
+edit header.h:            ^
+edit header.h(58): error:  #20: identifier "alhour" is undefined
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:            ^
+edit header.h(58): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:                     ^
+edit header.h(68): error:  #20: identifier "almin" is undefined
+edit header.h:            almin = int_conversion(mi);
+edit header.h:            ^
+edit header.h(78): error:  #20: identifier "alsec" is undefined
+edit header.h:            alsec = int_conversion(se);
+edit header.h:            ^
+edit header.h(87): warning:  #1-D: last line of file ends without a newline
+edit header.h:   }
+edit header.h:    ^
+edit header.h: medicine.c: 3 warnings, 6 errors
+medicine.c - 6 Error(s), 3 Warning(s).
+compiling medicine.c...
+edit header.h(25): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            hour = int_conversion(hr);
+edit header.h:                   ^
+edit header.h(60): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:                     ^
+edit header.h(89): warning:  #1-D: last line of file ends without a newline
+edit header.h:   }
+edit header.h:    ^
+edit header.h: medicine.c: 3 warnings, 0 errors
+medicine.c - 0 Error(s), 3 Warning(s).
+compiling medicine.c...
+edit header.h(25): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            hour = int_conversion(hr);
+edit header.h:                   ^
+edit header.h(60): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:                     ^
+edit header.h: medicine.c: 2 warnings, 0 errors
+medicine.c - 0 Error(s), 2 Warning(s).
+compiling medicine.c...
+edit header.h(25): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            hour = int_conversion(hr);
+edit header.h:                   ^
+edit header.h(60): warning:  #223-D: function "int_conversion" declared implicitly
+edit header.h:            alhour = int_conversion(hr);
+edit header.h:                     ^
+edit header.h: medicine.c: 2 warnings, 0 errors
+medicine.c - 0 Error(s), 2 Warning(s).
+compiling medicine.c...
+edit header.h(12): error:  #20: identifier "a" is undefined
+edit header.h:        for (c = 0; a[c] != '\0'; c++) 
+edit header.h:                    ^
+edit header.h: medicine.c: 0 warnings, 1 error
+medicine.c - 1 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=4768 RO-data=32 RW-data=52 ZI-data=1260  
+FromELF: creating hex file...
+"medicine remainder.axf" - 0 Error(s), 0 Warning(s).
+compiling C:\Keil\ARM\INC\Philips\LPC213X.H...
+Build target 'Target 1'
+compiling medicine.c...
+linking...
+Program Size: Code=4780 RO-data=32 RW-data=52 ZI-data=1260  
+FromELF: creating hex file...
+"medicineRemainder.axf" - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=4780 RO-data=32 RW-data=52 ZI-data=1260  
+FromELF: creating hex file...
+"medicineRemainder.axf" - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=4796 RO-data=32 RW-data=52 ZI-data=1260  
+FromELF: creating hex file...
+"medicineRemainder.axf" - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=4784 RO-data=32 RW-data=52 ZI-data=1260  
+FromELF: creating hex file...
+"medicineRemainder.axf" - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c(23): error:  #20: identifier "sec" is undefined
+medicine.c:        sec = CTIME0 & MASKSEC;
+medicine.c:        ^
+medicine.c(24): error:  #20: identifier "min" is undefined
+medicine.c:      min = (CTIME0 & MASKMIN) >> 8;
+medicine.c:      ^
+medicine.c(25): error:  #20: identifier "hour" is undefined
+medicine.c:      hour = (CTIME0 & MASKHOUR) >> 16;
+medicine.c:      ^
+medicine.c: medicine.c: 0 warnings, 3 errors
+medicine.c - 3 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=4728 RO-data=32 RW-data=40 ZI-data=1256  
+FromELF: creating hex file...
+"medicineRemainder.axf" - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=4728 RO-data=32 RW-data=40 ZI-data=1256  
+FromELF: creating hex file...
+"medicineReminder.axf" - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=4760 RO-data=32 RW-data=40 ZI-data=1256  
+FromELF: creating hex file...
+"medicineReminder.axf" - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=4744 RO-data=32 RW-data=40 ZI-data=1256  
+FromELF: creating hex file...
+"medicineReminder.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling medicine.c...
+linking...
+Program Size: Code=4888 RO-data=32 RW-data=48 ZI-data=1256  
+FromELF: creating hex file...
+"medicineReminder.axf" - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=4888 RO-data=32 RW-data=48 ZI-data=1256  
+FromELF: creating hex file...
+"medicineReminder.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling medicine.c...
+linking...
+Program Size: Code=4888 RO-data=32 RW-data=48 ZI-data=1256  
+FromELF: creating hex file...
+"medicineReminder.axf" - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=4888 RO-data=32 RW-data=48 ZI-data=1256  
+FromELF: creating hex file...
+"medicineReminder.axf" - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=4880 RO-data=32 RW-data=48 ZI-data=1256  
+FromELF: creating hex file...
+"medicineReminder.axf" - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=4872 RO-data=32 RW-data=48 ZI-data=1256  
+FromELF: creating hex file...
+"medicineReminder.axf" - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=4920 RO-data=32 RW-data=48 ZI-data=1256  
+FromELF: creating hex file...
+"medicineReminder.axf" - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=4920 RO-data=32 RW-data=48 ZI-data=1256  
+FromELF: creating hex file...
+"medicineReminder.axf" - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=4920 RO-data=32 RW-data=48 ZI-data=1256  
+FromELF: creating hex file...
+"medicineReminder.axf" - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=4920 RO-data=32 RW-data=48 ZI-data=1256  
+FromELF: creating hex file...
+"medicineReminder.axf" - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=4968 RO-data=32 RW-data=52 ZI-data=1260  
+FromELF: creating hex file...
+"medicineReminder.axf" - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=5236 RO-data=32 RW-data=52 ZI-data=1260  
+FromELF: creating hex file...
+"medicineReminder.axf" - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=5188 RO-data=32 RW-data=52 ZI-data=1260  
+FromELF: creating hex file...
+"medicineReminder.axf" - 0 Error(s), 0 Warning(s).
+compiling medicine.c...
+edit header.h(48): warning:  #223-D: function "atoi" declared implicitly
+edit header.h:            HOUR = atoi(hr);
+edit header.h:                   ^
+edit header.h(104): warning:  #223-D: function "atoi" declared implicitly
+edit header.h:            ALHOUR = atoi(alhr);
+edit header.h:                     ^
+edit header.h: medicine.c: 2 warnings, 0 errors
+medicine.c - 0 Error(s), 2 Warning(s).
+compiling medicine.c...
+edit header.h(49): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+edit header.h:            HOUR = atoi(hr);
+edit header.h:                        ^
+edit header.h(67): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+edit header.h:            MIN = atoi(mi);
+edit header.h:                       ^
+edit header.h(85): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+edit header.h:            SEC = atoi(se);
+edit header.h:                       ^
+edit header.h(105): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+edit header.h:            ALHOUR = atoi(alhr);
+edit header.h:                          ^
+edit header.h(123): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+edit header.h:            ALMIN = atoi(almi);
+edit header.h:                         ^
+edit header.h(141): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+edit header.h:            ALSEC = atoi(alse);
+edit header.h:                         ^
+edit header.h: medicine.c: 6 warnings, 0 errors
+medicine.c - 0 Error(s), 6 Warning(s).
+compiling medicine.c...
+edit header.h(39): error:  #137: expression must be a modifiable lvalue
+edit header.h:                     hr[i-1]=key_detect();
+edit header.h:                     ^
+edit header.h(57): error:  #137: expression must be a modifiable lvalue
+edit header.h:                     mi[i-1]=key_detect();
+edit header.h:                     ^
+edit header.h(75): error:  #137: expression must be a modifiable lvalue
+edit header.h:                     se[i-1]=key_detect();
+edit header.h:                     ^
+edit header.h(105): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+edit header.h:            ALHOUR = atoi(alhr);
+edit header.h:                          ^
+edit header.h(123): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+edit header.h:            ALMIN = atoi(almi);
+edit header.h:                         ^
+edit header.h(141): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+edit header.h:            ALSEC = atoi(alse);
+edit header.h:                         ^
+edit header.h: medicine.c: 3 warnings, 3 errors
+medicine.c - 3 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling medicine.c...
+edit header.h(105): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+edit header.h:            ALHOUR = atoi(alhr);
+edit header.h:                          ^
+edit header.h(123): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+edit header.h:            ALMIN = atoi(almi);
+edit header.h:                         ^
+edit header.h(141): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+edit header.h:            ALSEC = atoi(alse);
+edit header.h:                         ^
+edit header.h: medicine.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=5824 RO-data=304 RW-data=52 ZI-data=1260  
+FromELF: creating hex file...
+"medicineReminder.axf" - 0 Error(s), 3 Warning(s).
+compiling medicine.c...
+edit header.h(105): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+edit header.h:            ALHOUR = atoi(alhr);
+edit header.h:                          ^
+edit header.h(123): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+edit header.h:            ALMIN = atoi(almi);
+edit header.h:                         ^
+edit header.h(141): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+edit header.h:            ALSEC = atoi(alse);
+edit header.h:                         ^
+edit header.h: medicine.c: 3 warnings, 0 errors
+medicine.c - 0 Error(s), 3 Warning(s).
+compiling medicine.c...
+medicine.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=5824 RO-data=304 RW-data=52 ZI-data=1260  
+FromELF: creating hex file...
+"medicineReminder.axf" - 0 Error(s), 0 Warning(s).

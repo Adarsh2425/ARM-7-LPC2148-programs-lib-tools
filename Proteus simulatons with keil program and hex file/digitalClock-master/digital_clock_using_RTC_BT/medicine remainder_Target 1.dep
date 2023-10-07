@@ -1,0 +1,11 @@
+Dependencies for Project 'medicine remainder', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4BB1C206)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 528"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\medicine.c)(0x5DE62004)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="528"-o .\medicine.o --omf_browse .\medicine.crf --depend .\medicine.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc213x.h)(0x559CFE30)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB9D0A)
+I (LCD Header.h)(0x5D00B569)
+I (edit header.h)(0x5DE620A9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB9D0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB9D0A)
+I (Keypad Header.h)(0x5CFF796C)
+I (UART Header.h)(0x5CFF700A)

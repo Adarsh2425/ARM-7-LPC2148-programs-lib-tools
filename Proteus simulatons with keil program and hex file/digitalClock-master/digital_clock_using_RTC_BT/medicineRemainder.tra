@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'medicineRemainder.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"medicine.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "medicine.o" --strict --scatter "medicineRemainder.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\medicineRemainder.map" -o "medicineRemainder.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'medicineRemainder.axf'
+### ADS-LD Command File: 'medicineRemainder.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'medicineRemainder.lnp', Handle=0x00000C0C
+### Writing '.lnp' file
+### ADS-LD Command file 'medicineRemainder.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
