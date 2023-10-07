@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "main.o" "lcd.o" "keypad.o" "delay.o" --strict --scatter "HexKeypad_assignment.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\HexKeypad_assignment.map" -o "HexKeypad_assignment.axf"
