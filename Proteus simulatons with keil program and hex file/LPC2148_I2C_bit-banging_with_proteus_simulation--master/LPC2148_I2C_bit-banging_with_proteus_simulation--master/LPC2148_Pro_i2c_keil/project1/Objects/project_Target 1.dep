@@ -1,0 +1,9 @@
+Dependencies for Project 'project', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x55AFD1F4)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 518"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\mainc.c)(0x5708313C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-D__UVISION_VERSION="518"-o .\objects\mainc.o --omf_browse .\objects\mainc.crf --depend .\objects\mainc.d)
+I (C:\Keil_v5\ARM\Inc\Philips\LPC213X.H)(0x55AFD206)
+I (arm_delay.h)(0x570827D0)
+I (lcd_driver.h)(0x570827DC)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc21xx.h)(0x5708272D)
+I (i2c_device_driver.h)(0x57082925)
+I (i2c_frame_comp.h)(0x57082946)
