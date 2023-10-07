@@ -1,0 +1,4 @@
+;#<FEEDBACK># ARM Linker, 5060061: Last Updated: Thu Apr 07 13:42:46 2016
+;VERSION 0.2
+;FILE mainc.o
+delay <= USED 0
