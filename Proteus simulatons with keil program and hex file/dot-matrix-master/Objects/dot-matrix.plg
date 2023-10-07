@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\gshub\Downloads\dot-matrix-master\dot-matrix-master\dot-matrix.uvproj
+Project File Date:  10/05/2023
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(21): error:  #7: unrecognized token
+main.c(21): error:  #29: expected an expression
+main.c(21): error:  #7: unrecognized token
+main.c(21): error:  #7: unrecognized token
+main.c(21): error:  #7: unrecognized token
+main.c(21): error:  #65: expected a ";"
+main.c(22): warning:  #1-D: last line of file ends without a newline
+Target not created

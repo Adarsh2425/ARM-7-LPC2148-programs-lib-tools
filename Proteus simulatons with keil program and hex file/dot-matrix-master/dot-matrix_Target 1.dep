@@ -1,0 +1,4 @@
+Dependencies for Project 'dot-matrix', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x651EE8C6)(--device DARMP --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\\ARM\INC\Philips" --list ".\Listings\Startup.lst" --xref -o ".\Objects\Startup.o")
+F (.\main.c)(0x651F19D0)(-c --device DARMP -D__EVAL -g -O0 --apcs=interwork --split_sections -I "C:\\ARM\INC\Philips" -o ".\Objects\main.o" --omf_browse ".\Objects\main.crf" --depend ".\Objects\main.d")
+I (C:\ARM\INC\Philips\LPC214x.h)(0x4A02A636)

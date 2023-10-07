@@ -1,0 +1,1 @@
+-c --device DARMP -D__EVAL -g -O0 --apcs=interwork --split_sections -I "C:\\ARM\INC\Philips" -o ".\Objects\main.o" --omf_browse ".\Objects\main.crf" --depend ".\Objects\main.d" "main.c"
