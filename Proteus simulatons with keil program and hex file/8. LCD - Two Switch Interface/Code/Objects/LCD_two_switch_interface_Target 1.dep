@@ -1,0 +1,11 @@
+Dependencies for Project 'LCD_two_switch_interface', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 529"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\lcd_two_switch_interface.c)(0x635E977C)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\lcd_two_switch_interface.o --omf_browse .\objects\lcd_two_switch_interface.crf --depend .\objects\lcd_two_switch_interface.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AF542)
+I (lcd_header.h)(0x635E54BE)
+F (.\lcd_function.c)(0x635E952C)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529"-o .\objects\lcd_function.o --omf_browse .\objects\lcd_function.crf --depend .\objects\lcd_function.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+I (lcd_header.h)(0x635E54BE)
+F (.\lcd_header.h)(0x635E54BE)()
