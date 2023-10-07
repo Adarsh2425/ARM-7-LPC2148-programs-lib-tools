@@ -1,0 +1,9 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\sine_wave.o"
+".\objects\function.o"
+".\objects\main.o"
+--strict --scatter ".\Objects\Question4.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Question4.map" -o .\Objects\Question4.axf
